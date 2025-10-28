@@ -1,0 +1,21 @@
+# 1. Ignore all log files
+*.log
+
+# 2. Ignore entire User Manual folder
+docs/User_Manual/
+
+# 3. Ignore all txt files that include a hyphen (-)
+*-*.txt
+
+# 4. Ignore styles.css file
+src/styles.css
+
+# 5. Ignore all SRS files except final version
+docs/Software_Requirement_Specification/SRS_v[0-9].docx
+
+# 6. Ignore all SDD files except final version
+docs/Software_Design_Document/SDD_v[0-9].docx
+
+# 7. Ignore any README files not in the root directory
+**/README.md
+!/README.md
